@@ -1,0 +1,25 @@
+.folio-overview a {
+  font-size: 18px;
+  color: #333;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: -35px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.folio-overview a:hover {
+  color: #9d0101;
+}
+
+.folio-overview {
+  vertical-align: center;
+}
+
+.folio-overview {
+  
+}
