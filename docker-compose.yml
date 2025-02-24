@@ -18,7 +18,6 @@ version: "3"
 
 
 services:
-# Application Container
   apps:
     image: kankuu/php5-laravel4
     container_name: simontok
