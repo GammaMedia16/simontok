@@ -63,11 +63,11 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'gammamed_userdb',
-	'password' => 'passwordgamma2019',
-	'database' => 'gammamed_simontok',
+	'port'	=> '33060',
+	'hostname' => '123.231.148.147',
+	'username' => 'simontok',
+	'password' => 'S1MontokP0Ly123',
+	'database' => 'simontok',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
