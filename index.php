@@ -57,7 +57,7 @@
 
 /*
  *---------------------------------------------------------------
- * ERROR REPORTING
+ * ERROR REPORTING X
  *---------------------------------------------------------------
  *
  * Different environments will require different levels of error reporting.
