@@ -1,0 +1,30 @@
+#
+#                    ##        .
+#              ## ## ##       ==
+#           ## ## ## ##      ===
+#       /""""""""""""""""\___/ ===
+#  ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~
+#       \______ o          __/
+#         \    \        __/
+#          \____\______/
+#
+#          |          |
+#       __ |  __   __ | _  __   _
+#      /  \| /  \ /   |/  / _\ |
+#      \__/| \__/ \__ |\_ \__  |
+#
+
+version: "3"
+
+
+services:
+# Application Container
+  apps:
+    image: kankuu/php5-laravel4
+    container_name: simontok
+    working_dir: /var/www/html/public
+    ports:
+        - "8902:80"
+    volumes:
+      - /aplikasi/gammamedia/aplikasi/simontok:/var/www/html/public
+    network_mode: bridge
