@@ -56,6 +56,7 @@
           </div>
           <div class="text-muted text-center">
             <p style="margin-top: 60px; font-size:9pt;">Copyright &copy; 2022 &nbsp;Politeknik Kesehatan Semarang</p>
+            <p style="margin-top: 60px; font-size:9pt;">Copyright &copy; 2025 &nbsp;Politeknik Kesehatan Semarang</p>
           </div><!-- /.social-auth-links -->
         </div>
       </form>
